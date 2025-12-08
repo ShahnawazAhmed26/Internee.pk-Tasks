@@ -1,0 +1,9 @@
+{
+  "name": "custom-ai-resume-coach",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run -C server dev & npm run -C frontend dev",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix frontend"
+  }
+}

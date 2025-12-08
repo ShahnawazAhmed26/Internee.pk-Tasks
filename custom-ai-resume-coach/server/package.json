@@ -1,0 +1,14 @@
+{
+  "name": "resume-coach-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "custom-ai-resume-coach": "file:..",
+    "express": "^4.19.2"
+  }
+}
